@@ -4,10 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>CV</title>
-    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
     <link rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-      crossorigin="anonymous">
+          href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="css/flag-icon.min.css" type="text/css"
+                                                        media="all" />
   </head>
   <body>
     <div class="header">
@@ -15,27 +17,45 @@
       <div class="job-title">software engineer</div>
       <div class="contacts">
         <div class="fas fa-phone"></div><div>+33 (0)6 23 96 58 03</div>
-        <div class="fas fa-envelope"></div><div>juliendeoux@gmail.com</div>
-        <div class="fab fa-linkedin"></div><div>in/julien-deoux</div>
-        <div class="fab fa-github"></div><div>lem4ki</div>
+        <div class="fas fa-envelope"></div><div>
+          <a href="mailto:juliendeoux@gmail.com">juliendeoux@gmail.com</a>
+        </div>
+        <div class="fab fa-linkedin"></div><div>
+          <a href="https://linkedin.com/in/julien-deoux">in/julien-deoux</a>
+        </div>
+        <div class="fab fa-github"></div><div>
+          <a href="https://github.com/lem4ki">lem4ki</a>
+        </div>
       </div>
       <div class="summary">
-      young developer with strong interest in everything interface and
-      design-related
+        young developer with strong interest in everything interface and
+        design-related
       </div>
     </div>
     <div class="content">
       <div class="panel skills">
         <h2>Skills and interests</h2>
         <h3>Programming languages</h3>
-        <p>Javascript, HMTML, CSS, Java, Python, C</p>
+        <p>
+        <img src="img/js.png" title="Javascript" height="48">
+        <img src="img/html.png" title="HTML" height="48">
+        <img src="img/css.png" title="CSS" height="48">
+        <img src="img/java.png" title="Java" height="48">
+        <img src="img/python.png" title="Python" height="48">
+        <img src="img/c.png" title="C" height="48">
+        </p>
         <h3>Natural languages</h3>
-        <p>Native french, fluent english</p>
+        <p><span class="flag-icon flag-icon-fr"></span> Native</p>
+        <p><span class="flag-icon flag-icon-gb"></span> Fluent</p>
         <h3>Other skills</h3>
-        <p>comfortable with relational databases</p>
-        <p>good knowledge of Unix-like system</p>
-        <p>regular use of image manipulation software and music composition
-        software</p>
+        <p>
+        <ul>
+          <li>comfortable with relational databases</li>
+          <li>good knowledge of Unix-like systems</li>
+          <li>regular use of image manipulation software and music composition
+            software</li>
+        </ul>
+        </p>
         <h3>Interests</h3>
         <p>piano, music composition, cinema (acting and directing),
         photography</p>
@@ -95,7 +115,7 @@
           <div class="date">2017</div>
           <div class="label">Internship (5 months)</div>
           <div class="description"><em>UX Design for a smart gaming
-            solution</em><br>Designed a graphical user interface to help
+              solution</em><br>Designed a graphical user interface to help
             players use multiple devices at the same time, developped it on
             desktop platforms and made a prototype for Android.</div>
           <div class="keywords">Javascript, Electron, React, Android, UX
