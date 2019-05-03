@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700,900');
 @import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700');
 
 @page {
@@ -66,7 +66,7 @@ h3 {
 .contacts {
   font-size: 14px;
   font-family: var(--sans);
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 2px;
   margin: 24px 0;
 }
@@ -189,7 +189,8 @@ span.flag-icon {
   grid-column: 2;
   text-align: right;
   font-family: var(--sans);
-  font-weight: 300;
+  font-weight: 600;
+  font-style: italic;
 }
 
 .date {
@@ -197,7 +198,7 @@ span.flag-icon {
   grid-column: 2;
   text-align: right;
   font-family: var(--sans);
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .label {
