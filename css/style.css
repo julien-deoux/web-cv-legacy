@@ -217,6 +217,7 @@ span.flag-icon {
 .keywords {
   grid-row: 4;
   grid-column: 1 / span 2;
+  margin-top: 8px;
   font-style: italic;
   text-align: center;
 }
